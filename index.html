@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<hr lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>My Quiz Page</title>
+ </head>
+ <body>
+    <header><br>
+        <b>My Quiz Page</b>
+        <small><small><small><small><b><br>Quiz for everyone</b></small></small></small></small><br>
+    </header></body>
+
+
+
+
+    <section>
+    
+        <h2><black id="q1">Quiz1. 지하철이 믿는 사상은? (1점)</black><red id="qX1"></red><blue id="qO1"></blue></h2>
+        <li><black id="black11">1. 공산주의</black><sel id="sel11"></sel><red id="red11"></red>
+        <button onclick="q11()">
+            선택
+        </button><sel id="pre11"></sel><red id="qre11"></red></li>
+        <li><black id="black12">2. 전체주의</black><sel id="sel12"></sel><red id="red12"></red>
+            <button onclick="q12()">
+                선택
+            </button><sel id="pre12"></sel><red id="qre12"></red></li>
+            <li><black id="black13">3. 자본주의</black><sel id="sel13"></sel><red id="red13"></red>
+                <button onclick="q13()">
+                    선택
+                </button><sel id="pre13"></sel><red id="qre13"></red></li>
+                <li><black id="black14">4. 발빠짐주의</black><sel id="sel14"></sel><blue id="red14"></blue>
+                    <button onclick="q14()">
+                        선택
+                    </button><sel id="pre14"></sel><blue id="qre14"></blue></li>
+
+    </section>
+    <section>
+    
+        <h2><black id="q2">Quiz2. 한우를 해외로 수출할 때 필요한 것은? (1점)</black><red id="qX2"></red><blue id="qO2"></blue></h2>
+        <li><black id="black21">1. 생산자</black><sel id="sel21"></sel><red id="red21"></red>
+        <button onclick="q21()">
+            선택
+        </button><sel id="pre21"></sel><red id="qre21"></red></li>
+        <li><black id="black22">2. 소비자</black><sel id="sel22"></sel><blue id="red22"></blue>
+            <button onclick="q22()">
+                선택
+            </button><sel id="pre22"></sel><blue id="qre22"></blue></li>
+            <li><black id="black23">3. 분해자</black><sel id="sel23"></sel><red id="red23"></red>
+                <button onclick="q23()">
+                    선택
+                </button><sel id="pre23"></sel><red id="qre23"></red></li>
+                <li><black id="black24">4. 범죄자</black><sel id="sel24"></sel><red id="red24"></red>
+                    <button onclick="q24()">
+                        선택
+                    </button><sel id="pre24"></sel><red id="qre24"></red></li>
+
+    </section>
+
+
+    <section>
+        <h2><black id="q3">Quiz3. '물고기가 자란다'를 세 글자로 하면? (1점)</black><red id="qX3"></red><blue id="qO3"></blue></h2>
+        <form action="#" method="post" onsubmit="saveAnswer(event)">
+            <label for="comment">정답 입력:</label><br />
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br /><br /><br />
+            <input type="submit" value="submit"/>
+        </form>
+    </section>
+
+    
+
+
+ </body>
+</html>
