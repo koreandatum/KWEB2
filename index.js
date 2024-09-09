@@ -191,6 +191,7 @@ function saveAnswer(event) {
         document.getElementById("pre11").innerText = "";
         document.getElementById("qre11").innerText = " (선택됨)";
         document.getElementById("qX1").innerText = "Quiz1. 지하철이 믿는 사상은? (1점)";
+        p1 = 0;
           break;
       case 2:
             document.getElementById("sel12").innerText = "";
@@ -198,6 +199,7 @@ function saveAnswer(event) {
             document.getElementById("pre12").innerText = "";
         document.getElementById("qre12").innerText = " (선택됨)";
         document.getElementById("qX1").innerText = "Quiz1. 지하철이 믿는 사상은? (1점)";
+        p1 = 0;
               break;
               case 3:
         document.getElementById("sel13").innerText = "";
@@ -205,6 +207,7 @@ function saveAnswer(event) {
         document.getElementById("pre13").innerText = "";
         document.getElementById("qre13").innerText = " (선택됨)";
         document.getElementById("qX1").innerText = "Quiz1. 지하철이 믿는 사상은? (1점)";
+        p1 = 0;
           break;
           case 4:
         document.getElementById("sel14").innerText = "";
@@ -226,6 +229,7 @@ function saveAnswer(event) {
         document.getElementById("pre21").innerText = "";
         document.getElementById("qre21").innerText = " (선택됨)";
         document.getElementById("qX2").innerText = "Quiz2. 한우를 해외로 수출할 때 필요한 것은? (1점)";
+        p2 = 0;
           break;
       case 2:
             document.getElementById("sel22").innerText = "";
@@ -241,6 +245,7 @@ function saveAnswer(event) {
         document.getElementById("pre23").innerText = "";
         document.getElementById("qre23").innerText = " (선택됨)";
         document.getElementById("qX2").innerText = "Quiz2. 한우를 해외로 수출할 때 필요한 것은? (1점)";
+        p2 = 0;
           break;
           case 4:
         document.getElementById("sel24").innerText = "";
@@ -248,6 +253,7 @@ function saveAnswer(event) {
         document.getElementById("pre24").innerText = "";
         document.getElementById("qre24").innerText = " (선택됨)";
         document.getElementById("qX2").innerText = "Quiz2. 한우를 해외로 수출할 때 필요한 것은? (1점)";
+        p2 = 0;
           break;
           default:
             document.getElementById("qX2").innerText = "Quiz2. 한우를 해외로 수출할 때 필요한 것은? (1점)";
@@ -263,6 +269,7 @@ function saveAnswer(event) {
     }
     else {
       document.getElementById("qX3").innerText = "Quiz3. '물고기가 자란다'를 세 글자로 하면? (1점)";
+      p3 = 0;
     }
     total = p1 + p2 + p3;
     alert(total + "점");
